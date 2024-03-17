@@ -1,0 +1,117 @@
+.nv {
+  display: flex;
+  background-color: #525ceb;
+  margin-top: 2em;
+  border-radius: 2em;
+  padding: 1em;
+  color: aliceblue;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  margin-left: 8.5em;
+}
+
+ul {
+  gap: 30em;
+  display: flex;
+  list-style: none;
+  cursor: pointer;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #e0f4ff;
+  font-weight: 600;
+}
+
+/* .nav-link::hover {
+  color: black;
+} */
+
+.grid-cont {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 7em;
+  margin-left: 7em;
+  margin-top: 7em;
+  margin-right: 5em;
+  margin-bottom: 5em;
+}
+
+.grid-container {
+  background-color: #eeedeb;
+  border-radius: 20px;
+}
+
+img {
+  width: 50%;
+  mix-blend-mode: multiply;
+  margin-top: 1em;
+  object-fit: cover;
+  /* Make image fill the width of the card */
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+  overflow: hidden;
+  width: 200px; /* Fixed width for all image containers */
+  height: 200px;
+  border-radius: 20px;
+}
+
+.image {
+  /* overflow: hidden;
+  object-fit: cover; */
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bt {
+  display: flex;
+  justify-content: center;
+  gap: 3em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+h4 {
+  text-align: center;
+  text-decoration: solid;
+  margin-top: 1em;
+}
+
+button {
+  padding: 0.5em;
+  font-size: 1em;
+  border-radius: 25px;
+  background-color: #fba834;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+p {
+  margin-top: 0.5em;
+}
+
+span {
+  color: blue;
+}
+p {
+  text-decoration: solid;
+  font-style: italic;
+}
+
+.info {
+}
+
+@media screen and (max-width: 1024px) {
+  ul {
+    gap: 7em;
+    overflow: hidden;
+  }
+
+  .nv {
+    overflow: hidden;
+    margin-left: 3em;
+  }
+}
