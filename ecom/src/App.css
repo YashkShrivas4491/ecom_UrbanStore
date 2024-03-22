@@ -111,7 +111,7 @@ p {
 
 @media screen and (max-width: 1024px) {
   ul {
-    gap: 7em;
+    gap: 5em;
     overflow: hidden;
   }
 
@@ -141,6 +141,6 @@ p {
     overflow: hidden;
     display: flex;
     margin-top: 0.5em;
-    object-fit: cover;
+    
   }
 }
