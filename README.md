@@ -1,4 +1,4 @@
-![image](https://github.com/YashkShrivas4491/ecom_UrbanStore/assets/87111197/00df8e87-1d1c-47ee-9d1a-3f5ad916bc52)
+![image](https://github.com/YashkShrivas4491/ecom_UrbanStore/assets/87111197/58e63adc-c28a-4cba-8535-eb5a1323142c)
 
 # Urban Store - E-commerce Platform
 
@@ -17,7 +17,7 @@ Urban Store is an online platform dedicated to bringing you the latest trends in
 
 ## ScreenShot 🎉⚡
 
-![image](https://github.com/YashkShrivas4491/ecom_UrbanStore/assets/87111197/a6ba1553-660a-460a-941c-f3bef8c1d5e4)
+![image](https://github.com/YashkShrivas4491/ecom_UrbanStore/assets/87111197/95dad485-f0e2-4112-8a3d-90a8583b5596)
 ![image](https://github.com/YashkShrivas4491/ecom_UrbanStore/assets/87111197/346f68c6-253d-4169-a525-701c569e3546)
 
 
