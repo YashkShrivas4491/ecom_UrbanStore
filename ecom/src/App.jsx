@@ -1,30 +1,3 @@
-// import React, { Suspense } from "react";
-// import { Routes, Route } from "react-router-dom";
-// import Nav from "./Components/Nav";
-// import "./index.css";
-
-// // Use React.lazy to lazily load components
-// const Product = React.lazy(() => import("./Components/Product"));
-// const Cart = React.lazy(() => import("./Components/Cart"));
-
-// function App() {
-//   return (
-//     <>
-//       <div>
-//         <Nav />
-//         <Suspense fallback={<div>Loading...</div>}>
-//           <Routes>
-//             <Route path="/" element={<Product />} />
-//             <Route path="cart" element={<Cart />} />
-//           </Routes>
-//         </Suspense>
-//       </div>
-//     </>
-//   );
-// }
-
-// export default App;
-// App.jsx
 import React, { Suspense, useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import Nav from "./Components/Nav";
@@ -52,7 +25,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className="mn">
         <Nav cartItemCount={cartItems.length} />
         <h1 className="title">
           Urban <span>Store</span>
@@ -69,7 +42,7 @@ function App() {
           </Routes>
         </Suspense>
       </div>
-      <ToastContainer />
+      <ToastContainer position="top-center" autoClose={5000} />
     </>
   );
 }

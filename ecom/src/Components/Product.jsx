@@ -1,4 +1,4 @@
-// // Product.jsx
+
 import React, { useState, useEffect } from "react";
 import ProductItem from "./ProductItem";
 
@@ -27,7 +27,14 @@ const Product = ({ addToCart }) => {
   }, []);
 
   if (loading) {
-    return <div>Loading...</div>;
+    // Render loading skeleton
+    return (
+      <div className="grid-cont">
+        {[...Array(10)].map((_, index) => (
+          <ProductItem key={index} loading={loading} />
+        ))}
+      </div>
+    );
   }
 
   if (error) {
@@ -44,6 +51,7 @@ const Product = ({ addToCart }) => {
           title={product.title}
           price={product.price}
           addToCart={() => addToCart(product)}
+          loading={loading}
         />
       ))}
     </div>

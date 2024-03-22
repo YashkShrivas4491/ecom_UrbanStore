@@ -43,8 +43,10 @@
     overflow: hidden;
     display: grid;
     grid-gap: 0.5em;
+    object-fit: cover;
   }
   .item-details p {
     overflow: hidden;
+    object-fit: cover;
   }
 }

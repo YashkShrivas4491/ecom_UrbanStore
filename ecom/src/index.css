@@ -6,6 +6,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+body {
+  background: linear-gradient(to right, #d6bcfa, #c3daee);
+}
+
 h1 {
   text-align: center;
   margin-top: 2em;
@@ -16,6 +20,13 @@ h1 span {
   color: aliceblue;
   border-radius: 20px;
   padding: 10px;
+}
+
+.toast {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 @media screen and (max-width: 1024px) {

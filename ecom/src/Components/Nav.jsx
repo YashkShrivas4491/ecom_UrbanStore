@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import "./../App.css";
-import { FaCartArrowDown } from "react-icons/fa6";
-import { FaHome } from "react-icons/fa";
+import { FaCartArrowDown, FaWpexplorer } from "react-icons/fa6";
+
 
 const Nav = ({ cartItemCount }) => {
   return (
@@ -9,8 +9,8 @@ const Nav = ({ cartItemCount }) => {
       <ul>
         <li>
           <NavLink to="/" className="nav-link">
-            Home{" "}
-            <FaHome
+            Explore{" "}
+            <FaWpexplorer
               style={{
                 marginLeft: "0.5em",
               }}
